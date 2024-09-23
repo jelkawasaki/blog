@@ -1,7 +1,8 @@
 body {
-    background-color: #F6C44A;  /* 背景色を画像のような黄色に設定 */
+    background-color: #F6C44A; /* 他のページと同じ背景色に変更 */
+    --md-default-bg-color: #F6C44A; /* CSS変数を使用して変更 */
 }
-
+  
 h1, h2, h3, h4, h5, h6, p {
     color: #333333;  /* 文字色を濃いグレーに設定 */
 }
@@ -144,3 +145,5 @@ img {
 .md-footer-social {
     display: none !important; /* 完全に非表示にする */
 }
+
+

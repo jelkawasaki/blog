@@ -1,1 +1,9 @@
+/* メニューの上部の背景色を変更 */
+[data-md-color-primary="indigo"] {
+    --md-primary-bg-color: #d2b48c; /* お好みの色に変更 */
+}
 
+/* ロゴアイコンを非表示 */
+.md-header-nav__button {
+    display: none;
+}
